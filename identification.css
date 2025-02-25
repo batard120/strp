@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #22427C;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #22427C;
+}
+
+p {
+
+}
+
+header {
+    padding: 24px 0; /* Marge verticale */
+    background-color: #ffffff; /* Couleur de fond */
+    display: flex; /* Utilisation de flexbox */
+    align-items: center; /* Alignement vertical au centre */
+    justify-content: space-between; /* Alignement horizontal avec espace entre les éléments */
+}
+
+.image-container {
+    margin-right: 20px; /* Marge à droite pour l'espace entre l'image et le texte */
+}
+
+img.atia {
+    width: 420px;
+    height: 130px;
+    margin-left: 390px;
+}
+
+.text-container {
+    text-align: right;
+    margin-right: 320px;
+    word-spacing: 7px;
+}
+
+.txtt{
+    font-family: Francois One;
+    font-weight: Medium;
+    font-size: 18px;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: "Open Sans", sans-serif;
+}
+
+a:hover{
+    color: #Black;
+    text-decoration: underline;
+}
+
+
+.ftxt{
+    color: White;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.h3{
+    color: White;
+    text-decoration: underline;
+    float: left;
+    margin-left: 780px;
+    font-size: 23px;
+}
+
+.h2{
+    color: White;
+    text-decoration: underline;
+    float: right;
+    margin-right: 780px;
+    font-size: 23px;
+}
+
+.lol{
+    background-color: #2b2b2b;
+    position: relative;
+}
+
+.po{
+    text-align: center;
+    margin-left: -300px;
+    color: White;
+    text-decoration: none;
+
+}
+
+
+footer {
+    background-color: #4b4f5a;
+    padding: 0px 0;
+    text-align: center;
+}
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-column {
+    display: inline-block; /* Afficher les colonnes en ligne */
+    width: calc(40% / 3 - 0px); /* Calculer la largeur pour trois colonnes avec un espacement de 20px entre elles */
+    vertical-align: top; /* Aligner les colonnes au même niveau */
+    margin: 0 0px; /* Espacement entre les colonnes */
+    box-sizing: border-box; /* Inclure les bordures et les marges dans la largeur */
+}
+
+.footer-column h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: White;
+    text-decoration: Underline;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    color: White;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+}
+
+.footer-column ul li a:hover {
+    color: #666;
+    text-decoration: underline;
+}
